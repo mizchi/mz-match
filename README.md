@@ -4,6 +4,10 @@ Returnable switch for es6 and typescript with easy pattern matching.
 
 This is a feature just what I want.
 
+```
+npm install --save mz-match
+```
+
 ## How to use
 
 String match
