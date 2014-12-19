@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "coffee test/match.coffee"
+    "test": "node test/match.js"
   },
   "author": "",
   "license": "MIT"
