@@ -4,6 +4,9 @@
 
   module.exports = match = function(target, pairs) {
     var i, k, keys, n, v, vals, _i, _name;
+    if (arguments.length > 2) {
+      pairs = arguments.slice(1);
+    }
     keys = pairs.filter(function(n, i) {
       return !(i % 2);
     });

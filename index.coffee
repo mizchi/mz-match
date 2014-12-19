@@ -1,4 +1,6 @@
 module.exports = match = (target, pairs) ->
+  if arguments.length > 2 then pairs = arguments[1..]
+
   keys = pairs.filter (n, i) -> not(i % 2)
   vals = pairs.filter (n, i) -> i % 2
   n = vals.length
