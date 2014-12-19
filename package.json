@@ -1,6 +1,6 @@
 {
   "name": "mz-match",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Rough and returnable switch for javascript and typescript with easy pattern match",
   "main": "index.js",
   "directories": {
